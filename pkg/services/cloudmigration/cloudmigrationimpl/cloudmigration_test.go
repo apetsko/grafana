@@ -686,6 +686,7 @@ func setUpServiceTest(t *testing.T, withDashboardMock bool) cloudmigration.Servi
 		mockFolder,
 		&pluginstore.FakePluginStore{},
 		kvstore.ProvideService(sqlStore),
+		nil, // TODO: create mock
 	)
 	require.NoError(t, err)
 

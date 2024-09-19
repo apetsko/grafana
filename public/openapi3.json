@@ -7111,7 +7111,8 @@
             "enum": [
               "DASHBOARD",
               "DATASOURCE",
-              "FOLDER"
+              "FOLDER",
+              "LIBRARY_ELEMENT"
             ],
             "type": "string"
           }
